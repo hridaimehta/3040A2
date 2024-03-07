@@ -60,9 +60,10 @@ Before we dive into the hosting process, ensure you have the following:
     4. Wait for a few minutes to let GitHub build your static website.
     5. Congratulations, your professional resume is now hosted at `https://[YourGitHubUsername].github.io/` 
 
-### Gif
+## Gif
+![gif](https://github.com/hridaimehta/hridaimehta.github.io/blob/main/assets/Gif.gif)
 
-### More Resources
+## More Resources
 
 * [What is GitHub?](https://kinsta.com/knowledgebase/what-is-github/): A great resource for introduction of GitHub to a biginner.
  * [Tutorial](https://www.markdowntutorial.com/): Free tutorials and practice quizzes.
@@ -72,13 +73,12 @@ Before we dive into the hosting process, ensure you have the following:
 
 
 ## Acknowledgements
-
-Special thanks to Andrew Etter for his invaluable insights into modern technical writing. Gratitude is also extended to Simran Kaur and Vishal Heer for their peer reviews and contributions.
+I want to extend my sincere thanks to Andrew Etter for sharing their expertise on Technical Writing through their publication, Modern Technical Writing. I'm also grateful to my team members, Vishal Singh Heer and Simran Kaur, for their constructive feedback and contributions that enhanced the quality of this document. Finally, I'd like to thank our professor, Stewart Wilcox, for their support and guidance in bringing this project to fruition!
 
 ## FAQs
 
 **Q: What makes Markdown the preferred choice for crafting a resume?**
-A:  Markdown's simplicity and ease of use make it perfect for creating resumes. It allows you to focus on your content without worrying about complex formatting, ensuring your resume looks polished and professional.
+   - A:  Markdown's simplicity and ease of use make it perfect for creating resumes. It allows you to focus on your content without worrying about complex formatting, ensuring your resume looks polished and professional.
 
 **Q: I've followed all the steps, but my resume still isn't visible on GitHub Pages. What's next?**
-A: Double-check that your repository's name matches the [YourGitHubUsername].github.io format. Confirm that your index.md file is correctly using Markdown and is located in the repository's root. Lastly, revisit your GitHub Pages' settings to ensure everything is set up properly. If issues persist, GitHub's help documentation or community forums are great places to seek further assistance.
+   - A: Double-check that your repository's name matches the [YourGitHubUsername].github.io format. Confirm that your index.md file is correctly using Markdown and is located in the repository's root. Lastly, revisit your GitHub Pages' settings to ensure everything is set up properly. If issues persist, GitHub's help documentation or community forums are great places to seek further assistance.
