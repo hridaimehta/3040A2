@@ -1,23 +1,2 @@
-title: Hridai Mehta's Resume
-email: mehtah1@myumanitoba.ca
-description: "Welcome to my online resume. Here, you'll find detailed information about my education, technical skills, work experience, academic projects, and more."
-
-# Base configuration
-baseurl: "" 
-url: "http://hridaimehta.github.io" 
-
-# Build settings
-markdown: kramdown
-theme: minimal-mistakes-jekyll # Change this to your selected theme
-plugins:
-  - jekyll-feed
-
-
-# Exclude from processing
-exclude:
-  - node_modules/
-  - vendor/
-  - README.md
-  - LICENSE.txt
-  - Gemfile
-  - Gemfile.lock
+theme: jekyll-theme-Midnight
+show_title: false
