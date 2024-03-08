@@ -64,7 +64,7 @@ Before we dive into the hosting process, ensure you have the following:
     5. Congratulations, your professional resume is now hosted at `https://[YourGitHubUsername].github.io/` 
 
 ## Gif
-![gif](https://github.com/hridaimehta/hridaimehta.github.io/blob/main/assets/Gif.gif)
+![gif](https://github.com/hridaimehta/hridaimehta.github.io/blob/main/assets/Resume-Gif.gif)
    My resume hosted on the static website. 
    
 ## More Resources
