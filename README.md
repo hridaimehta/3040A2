@@ -20,7 +20,7 @@ Before we dive into the hosting process, ensure you have the following:
 
 ### 1. Creating Your GitHub Repository
 
-***Concept of Etter's Book***: GitHub uses Git's smart tracking system to help you keep everything, from code to notes, all in one spot. Etter explains in his book how this setup not only makes team work smoother but also keeps a neat record of all changes. This is super handy for fixing bugs and making sure everything stays up to date. Plus, it's cool because you can work on your stuff without being online, and later mix it back into the main project, letting you and your team tackle different tasks at the same time.
+***Linking to Etter's key principals***: GitHub uses Git's smart tracking system to help you keep everything, from code to notes, all in one spot. Etter explains in his book how this setup not only makes team work smoother but also keeps a neat record of all changes. This is super handy for fixing bugs and making sure everything stays up to date. Plus, it's cool because you can work on your stuff without being online, and later mix it back into the main project, letting you and your team tackle different tasks at the same time.
 
 
 - **Step by step instructions**:
@@ -32,7 +32,7 @@ Before we dive into the hosting process, ensure you have the following:
 
 ### 2. Adding Your Resume
 
-***Concept of Etter's Book***: Markdown is super easy to use, almost like jotting down notes in plain text but with a few simple tricks to make it look good. Etter highlights how using such a simple system for writing things down means you spend less time worrying about how it looks and more on what you're actually saying. That's why we're going to put your resume online using Markdown. It makes everything straightforward so you can focus on showcasing your skills and experiences without fussing over complex formatting.
+***Linking to Etter's key principals***: Markdown is super easy to use, almost like jotting down notes in plain text but with a few simple tricks to make it look good. Etter highlights how using such a simple system for writing things down means you spend less time worrying about how it looks and more on what you're actually saying. That's why we're going to put your resume online using Markdown. It makes everything straightforward so you can focus on showcasing your skills and experiences without fussing over complex formatting.
 
 - **Step by step instructions**:
   1. In your repository, go to "Add file" > "Create new file"
@@ -42,14 +42,14 @@ Before we dive into the hosting process, ensure you have the following:
 
 ### 3. Personalizing Your Page with Jekyll theme
 
-***Concept of Etter's Book***: In Andrew Etter's perspective, utilizing Jekyll themes through GitHub Pages offers an accessible route to crafting a unified and attractive online presence. He emphasizes the importance of delivering technical content in an aesthetically pleasing manner for enhanced reader engagement. Essentially, leveraging these themes simplifies the process of establishing a professional-looking static website.
+***Linking to Etter's key principals***: In Andrew Etter's perspective, utilizing Jekyll themes through GitHub Pages offers an accessible route to crafting a unified and attractive online presence. He emphasizes the importance of delivering technical content in an aesthetically pleasing manner for enhanced reader engagement. Essentially, leveraging these themes simplifies the process of establishing a professional-looking static website.
 
 - **Step by step instructions**:
   1. In your repository, go to "Add file" > "Create new file"
 
   2. Name this new file `_config.yml` file to your respository, this will be used to add theme for your resume
   
-  3. Specify your chosen theme, e.g., `theme: jekyll-theme-minimal`. This is my [config file](_config.yml)
+  3. Specify your chosen theme, e.g., `theme: jekyll-theme-Merlot`. This is my [config file](_config.yml)
 
 ### 4. Publishing Your Resume
 
@@ -65,12 +65,12 @@ Before we dive into the hosting process, ensure you have the following:
 
 ## Gif
 ![gif](https://github.com/hridaimehta/hridaimehta.github.io/blob/main/assets/Gif.gif)
-
+   My resume hosted on the static website. 
+   
 ## More Resources
-
 * [What is GitHub?](https://kinsta.com/knowledgebase/what-is-github/): A great resource for introduction of GitHub to a biginner.
- * [Tutorial](https://www.markdowntutorial.com/): Free tutorials and practice quizzes.
- * [Dellinger](https://dillinger.io/): Free online Markdown Editor.
+* [Tutorial](https://www.markdowntutorial.com/): Free tutorials and practice quizzes.
+* [Dellinger](https://dillinger.io/): Free online Markdown Editor.
 * [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/): A quick reference to the Markdown syntax..
 * [Jekyll Themes for GitHub](https://pages.github.com/themes/): Jekyll themes that work out of the box with GitHub pages.
 
@@ -84,4 +84,7 @@ I want to extend my sincere thanks to Andrew Etter for sharing their expertise o
    - A:  Markdown's simplicity and ease of use make it perfect for creating resumes. It allows you to focus on your content without worrying about complex formatting, ensuring your resume looks polished and professional.
 
 **Q: I've followed all the steps, but my resume still isn't visible on GitHub Pages. What's next?**
-   - A: Double-check that your repository's name matches the [YourGitHubUsername].github.io format. Confirm that your index.md file is correctly using Markdown and is located in the repository's root. Lastly, revisit your GitHub Pages' settings to ensure everything is set up properly. If issues persist, GitHub's help documentation or community forums are great places to seek further assistance.
+   - A:
+     - Double-check that your repository's name matches the [YourGitHubUsername].github.io format.
+     - Confirm that your index.md file is correctly using Markdown and is located in the repository's root.
+     - Lastly, revisit your GitHub Pages' settings to ensure everything is set up properly. If issues persist, GitHub's help documentation or community forums are great places to seek further assistance.
