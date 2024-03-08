@@ -1,31 +1,31 @@
-# Hosting Your Resume on GitHub Pages
+# Guide for Hosting Your Resume on GitHub Pages
 
 ## Purpose
 
-This document aims to outline the actionable steps for creating and hosting a resume in Markdown format, and to connect these steps with the overarching principles of contemporary Technical Writing as delineated in Andrew Etter's Modern Technical Writing.
+This document aims to outline the actionable steps for creating and hosting a resume in Markdown format via GitHub pages, and to connect these steps with the principles of contemporary Technical Writing as potrayed in Andrew Etter's Modern Technical Writing.
 
 
 ## Pre-requisites
 
 Before we dive into the hosting process, ensure you have the following:
 
-- **GitHub Account**: Your digital showcase platform. Create your account 
-    * Useful resource to get you familiar with Github: [*What is GitHub?*](https://kinsta.com/knowledgebase/what-is-github/).
-    * Create your free account:  [Join Github!](https://github.com/join)
+1. **GitHub Account**: Your digital showcase platform. Create your account 
+    * Useful blog to get you familiar with Github and its uses: [*What is GitHub?*](https://kinsta.com/knowledgebase/what-is-github/).
+    * Create your free account here:  [Join Github!](https://github.com/join)
 
-- **Markdown-Formatted Resume**: Your resume in Markdown format. Markdown allows for easy formatting and is highly recommended for its simplicity. Here is my resume in Mark down [resume](index.md). If you're new to Markdown, check out [More Resources](#more-resources) for links to tutorials, free Markdown editors and more.
+2. **Markdown-Formatted Resume**: Your resume in Markdown format. Markdown allows for easy formatting and is highly recommended for its simplicity. Here is my [resume](index.md) in Mark down. If you're new to Markdown, there are a lot resources availble to help you get started, check out [More Resources](#more-resources) for links to tutorials, free Markdown editors and more.
 
 
-## Instructions
+## Instructions 
 
 ### 1. Creating Your GitHub Repository
 
-***Concept of Etter's Book***: GitHub uses Git's smart tracking system to help you keep everything—from code to notes—all in one spot. Etter explains in his book how this setup not only makes team work smoother but also keeps a neat record of all changes. This is super handy for fixing bugs and making sure everything stays up to date. Plus, it's cool because you can work on your stuff without being online, and later mix it back into the main project, letting you and your team tackle different tasks at the same time.
+***Concept of Etter's Book***: GitHub uses Git's smart tracking system to help you keep everything, from code to notes, all in one spot. Etter explains in his book how this setup not only makes team work smoother but also keeps a neat record of all changes. This is super handy for fixing bugs and making sure everything stays up to date. Plus, it's cool because you can work on your stuff without being online, and later mix it back into the main project, letting you and your team tackle different tasks at the same time.
 
 
-- **Steps**:
-  1. Sign in to your GitHub account [login](https://github.com/login).
-  2.  On GitHub dashboard, click "New" to create a new repository.
+- **Step by step instructions**:
+  1. Sign in to your GitHub account using your credentials: [login](https://github.com/login).
+  2. On your GitHub dashboard, click "New" to create a new repository.
   3. Name it `[YourGitHubUsername].github.io` to automatically generate a web page URL.
   4. Opt for a **Public** repository to showcase your resume to the world.
   5. Select **Add a README file** to set up a README file to give visitors an overview of your repository.
@@ -34,25 +34,28 @@ Before we dive into the hosting process, ensure you have the following:
 
 ***Concept of Etter's Book***: Markdown is super easy to use, almost like jotting down notes in plain text but with a few simple tricks to make it look good. Etter highlights how using such a simple system for writing things down means you spend less time worrying about how it looks and more on what you're actually saying. That's why we're going to put your resume online using Markdown. It makes everything straightforward so you can focus on showcasing your skills and experiences without fussing over complex formatting.
 
-- **Steps**:
-  1. In your repository, go to "Add file" > "Create new file" and name it `index.md`. It is important that you use 'index.md' as file name because it's the first thing people will see when they visit your site. Think of it as the cover of your resume book.
-  2. Use Markdown to format your resume. You can do it directly on GitHub or use an editor listed in: [More Resources](#more-resources)
-  3. Commit the changes so save it.
+- **Step by step instructions**:
+  1. In your repository, go to "Add file" > "Create new file"
+  2. Name the new file `index.md`. It is important that you use 'index.md' as file name because it's the first thing people will see when they visit your site. Think of it as the cover of your resume book.
+  3. Use Markdown to format your resume. You can do it directly on GitHub or use an editor listed in: [More Resources](#more-resources.
+  4. Select "Commit changes" to save the changes to your repository.
 
 ### 3. Personalizing Your Page with Jekyll theme
 
 ***Concept of Etter's Book***: In Andrew Etter's perspective, utilizing Jekyll themes through GitHub Pages offers an accessible route to crafting a unified and attractive online presence. He emphasizes the importance of delivering technical content in an aesthetically pleasing manner for enhanced reader engagement. Essentially, leveraging these themes simplifies the process of establishing a professional-looking static website.
 
-- **Steps**:
-  1. Add a `_config.yml` file to your respository
+- **Step by step instructions**:
+  1. In your repository, go to "Add file" > "Create new file"
+
+  2. Name this new file `_config.yml` file to your respository, this will be used to add theme for your resume
   
-  2. Specify your chosen theme, e.g., `theme: jekyll-theme-minimal`. This is my [config file](_config.yml)
+  3. Specify your chosen theme, e.g., `theme: jekyll-theme-minimal`. This is my [config file](_config.yml)
 
 ### 4. Publishing Your Resume
 
 ***Concept of Etter's Book***: Andrew Etter highlights the critical role of easy access and direct deployment in managing technical documents. By embracing his recommendations, we use GitHub Pages, a built-in service of GitHub, to create static websites. This strategy ensures our resume is readily accessible online, simplifying updates and management, thereby streamlining the presentation and maintenance of our professional details.
 
-- **Steps**:
+- **Step by step instructions**:
   1. Navigate to "Settings" > "Pages" from the menu on the left side in your repository.
   2. Choose the option "Deploy from a branch" in the Source section.
   3. Pick the "main" branch and set the directory to "/ root". This step is crucial because it tells GitHub Pages exactly where to look for your resume file at the heart of your project.
