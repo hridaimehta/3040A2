@@ -20,9 +20,6 @@ Before we dive into the hosting process, ensure you have the following:
 
 ### 1. Creating Your GitHub Repository
 
-***Linking to Etter's key principals***: GitHub uses Git's smart tracking system to help you keep everything, from code to notes, all in one spot. Etter explains in his book how this setup not only makes team work smoother but also keeps a neat record of all changes. This is super handy for fixing bugs and making sure everything stays up to date. Plus, it's cool because you can work on your stuff without being online, and later mix it back into the main project, letting you and your team tackle different tasks at the same time.
-
-
 - **Step by step instructions**:
   1. Sign in to your GitHub account using your credentials: [login](https://github.com/login).
   2. On your GitHub dashboard, click "New" to create a new repository.
@@ -30,9 +27,9 @@ Before we dive into the hosting process, ensure you have the following:
   4. Opt for a **Public** repository to showcase your resume to the world.
   5. Select **Add a README file** to set up a README file to give visitors an overview of your repository.
 
-### 2. Adding Your Resume
+***Linking to Etter's key principals***: GitHub uses Git's smart tracking system to help you keep everything, from code to notes, all in one spot. Etter explains in his book how this setup not only makes team work smoother but also keeps a neat record of all changes. This is super handy for fixing bugs and making sure everything stays up to date. Plus, it's cool because you can work on your stuff without being online, and later mix it back into the main project, letting you and your team tackle different tasks at the same time.
 
-***Linking to Etter's key principals***: Markdown is super easy to use, almost like jotting down notes in plain text but with a few simple tricks to make it look good. Etter highlights how using such a simple system for writing things down means you spend less time worrying about how it looks and more on what you're actually saying. That's why we're going to put your resume online using Markdown. It makes everything straightforward so you can focus on showcasing your skills and experiences without fussing over complex formatting.
+### 2. Adding Your Resume
 
 - **Step by step instructions**:
   1. In your repository, go to "Add file" > "Create new file"
@@ -40,9 +37,9 @@ Before we dive into the hosting process, ensure you have the following:
   3. Use Markdown to format your resume. You can do it directly on GitHub or use an editor listed in: [More Resources](#more-resources.
   4. Select "Commit changes" to save the changes to your repository.
 
-### 3. Personalizing Your Page with Jekyll theme
+***Linking to Etter's key principals***: Markdown is super easy to use, almost like jotting down notes in plain text but with a few simple tricks to make it look good. Etter highlights how using such a simple system for writing things down means you spend less time worrying about how it looks and more on what you're actually saying. That's why we're going to put your resume online using Markdown. It makes everything straightforward so you can focus on showcasing your skills and experiences without fussing over complex formatting.
 
-***Linking to Etter's key principals***: In Andrew Etter's perspective, utilizing Jekyll themes through GitHub Pages offers an accessible route to crafting a unified and attractive online presence. He emphasizes the importance of delivering technical content in an aesthetically pleasing manner for enhanced reader engagement. Essentially, leveraging these themes simplifies the process of establishing a professional-looking static website.
+### 3. Personalizing Your Page with Jekyll theme
 
 - **Step by step instructions**:
   1. In your repository, go to "Add file" > "Create new file"
@@ -51,17 +48,18 @@ Before we dive into the hosting process, ensure you have the following:
   
   3. Specify your chosen theme, e.g., `theme: jekyll-theme-Merlot`. This is my [config file](_config.yml)
 
-### 4. Publishing Your Resume
+***Linking to Etter's key principals***: In Andrew Etter's perspective, utilizing Jekyll themes through GitHub Pages offers an accessible route to crafting a unified and attractive online presence. He emphasizes the importance of delivering technical content in an aesthetically pleasing manner for enhanced reader engagement. Essentially, leveraging these themes simplifies the process of establishing a professional-looking static website.
 
-***Concept of Etter's Book***: Andrew Etter highlights the critical role of easy access and direct deployment in managing technical documents. By embracing his recommendations, we use GitHub Pages, a built-in service of GitHub, to create static websites. This strategy ensures our resume is readily accessible online, simplifying updates and management, thereby streamlining the presentation and maintenance of our professional details.
+### 4. Publishing Your Resume
 
 - **Step by step instructions**:
   1. Navigate to "Settings" > "Pages" from the menu on the left side in your repository.
   2. Choose the option "Deploy from a branch" in the Source section.
   3. Pick the "main" branch and set the directory to "/ root". This step is crucial because it tells GitHub Pages exactly where to look for your resume file at the heart of your project.
+  4. Wait for a few minutes to let GitHub build your static website.
+  5. Congratulations, your professional resume is now hosted at `https://[YourGitHubUsername].github.io/` 
 
-    4. Wait for a few minutes to let GitHub build your static website.
-    5. Congratulations, your professional resume is now hosted at `https://[YourGitHubUsername].github.io/` 
+***Linking to Etter's key principals***: Andrew Etter highlights the critical role of easy access and direct deployment in managing technical documents. By embracing his recommendations, we use GitHub Pages, a built-in service of GitHub, to create static websites. This strategy ensures our resume is readily accessible online, simplifying updates and management, thereby streamlining the presentation and maintenance of our professional details.
 
 ## Gif
 ![gif](https://github.com/hridaimehta/hridaimehta.github.io/blob/main/assets/Resume-Gif.gif)
